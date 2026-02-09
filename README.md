@@ -8,6 +8,9 @@ Repositório dedicado aos meus primeiros passos no mundo da tecnologia.
 1. **[Média Escolar](./média_escolar.alg):** Sistema com validação de entrada de dados (`repita/ate`) para cálculo de médias.
 2. **[Cálculo de IMC](./calculo_imc.alg):** Algoritmo que utiliza condicionais aninhadas para classificar o índice de massa corporal.
 3. **[School System (English Version)](./school_system_grade.alg)**: Sistema de notas com conceitos de A a F, focado em padrões internacionais.
+4. **[Currency Converter](./conversor_dolar.alg):**
+   - **Contexto:** Um utilitário simples para conversão de BRL para USD. 
+   - **Nota de Estudo:** Este exercício simula a base de transações internacionais, focando em manipulação de variáveis financeiras.
 
 
 ###  Tecnologias
