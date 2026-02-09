@@ -4,8 +4,9 @@ Exercícios de lógica de programação desenvolvidos durante o ensino médio.
 
 Repositório dedicado aos meus primeiros passos no mundo da tecnologia. 
 
-###  Sobre este projeto
-O algoritmo `media_escolar` foi desenvolvido em Portugol. Ele recebe duas notas, valida se estão entre 0 e 10 e calcula se o aluno foi aprovado.
+## Exercícios Disponíveis 
+1. **[Média Escolar](./media_escolar.alg):** Sistema com validação de entrada de dados (`repita/ate`) para cálculo de médias.
+2. **[Cálculo de IMC](./calculo_imc.alg):** Algoritmo que utiliza condicionais aninhadas para classificar o índice de massa corporal.
 
 ###  Tecnologias
 - Portugol (VisualG)
