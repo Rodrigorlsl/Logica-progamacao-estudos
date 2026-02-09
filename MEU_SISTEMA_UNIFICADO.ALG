@@ -1,29 +1,29 @@
 algoritmo "MEU_SISTEMA_UNIFICADO"
 var
-   //Variáveis para IMC:
+   //VariÃ¡veis para IMC:
    IMC, peso, altura: real
-   //Variáveis para MÉDIA ESCOLAR:
+   //VariÃ¡veis para MÃ‰DIA ESCOLAR:
     media_nec, n1, n2, media: real
-   //Variáveis para CONVERÇÃO REAL PARA DÓLAR:
+   //VariÃ¡veis para CONVERÃ‡ÃƒO REAL PARA DÃ“LAR:
       rs, r, dolar: real
-    //Variável para Sistema Multifunções
+    //VariÃ¡vel para Sistema MultifunÃ§Ãµes
       opcao: inteiro
       pausa_: caractere
-    //Variável para SYSTEM SCHOOL
+    //VariÃ¡vel para SYSTEM SCHOOL
      nota1, nota2, M: real
 
 inicio
    repita
       escreval("================================")
-      escreval("    SISTEMA MULTIFUNÇÕES V1.0   ")
+      escreval("    SISTEMA MULTIFUNÃ‡Ã•ES V1.0   ")
       escreval("================================")
       escreval("1 - Calcular IMC")
-      escreval("2 - Sistema Escolar (Média)")
+      escreval("2 - Sistema Escolar (MÃ©dia)")
       escreval("3 - Conversor de Moedas")
       escreval("4 - System Grade School")
       escreval("0 - Sair do Programa")
       escreval("--------------------------------")
-      escreva("Escolha uma opção: ")
+      escreva("Escolha uma opÃ§Ã£o: ")
       leia(opcao)
 
       limpatela
@@ -57,7 +57,7 @@ inicio
                    se (IMC>=35) e (IMC<40) entao
                       escreval("Obesidade severa")
                    senao
-                      escreval("Obesidade mórbida")
+                      escreval("Obesidade mÃ³rbida")
                    fimse
                 fimse
              fimse
@@ -77,22 +77,22 @@ leia(pausa_)
             media_nec <- 7
 
    escreval("=====================================================")
-   escreval("                SISTEMA GESTÃO ESCOLAR               ")
+   escreval("                SISTEMA GESTÃƒO ESCOLAR               ")
    escreval("=====================================================")
 
    repita
-      escreva("Digite a nota do 1º bimestre (0 a 10): ")
+      escreva("Digite a nota do 1Âº bimestre (0 a 10): ")
       leia(n1)
       se (n1 < 0) ou (n1 > 10) entao
-         escreval("Nota inválida! Tente novamente.")
+         escreval("Nota invÃ¡lida! Tente novamente.")
       fimse
    ate (n1 >= 0) e (n1 <= 10)
 
    repita
-      escreva("Digite a nota do 2º bimestre (0 a 10): ")
+      escreva("Digite a nota do 2Âº bimestre (0 a 10): ")
       leia(n2)
       se (n2 < 0) ou (n2 > 10) entao
-         escreval("Nota inválida! Tente novamente.")
+         escreval("Nota invÃ¡lida! Tente novamente.")
       fimse
    ate (n2 >= 0) e (n2 <= 10)
 
@@ -103,17 +103,17 @@ leia(pausa_)
    escreval("=====================================")
    escreval("          RESULTADO FINAL            ")
    escreval("=====================================")
-   escreval("Média do Aluno: ", media:1:1)
+   escreval("MÃ©dia do Aluno: ", media:1:1)
 
    se media >= media_nec entao
       escreval("Status: APROVADO")
    senao
       escreval("Status: REPROVADO")
-      escreval("Média mínima exigida: ", media_nec:1:1)
+      escreval("MÃ©dia mÃ­nima exigida: ", media_nec:1:1)
    fimse
    escreval("=====================================")
 
-            escreval("--- EXECUTANDO MÉDIA ESCOLAR ---")
+            escreval("--- EXECUTANDO MÃ‰DIA ESCOLAR ---")
             escreval(" ")
 escreva("Pressione ENTER para voltar ao menu...")
 leia(pausa_)
@@ -121,11 +121,11 @@ leia(pausa_)
 limpatela
             
          caso 3
-             escreva("Digite quanto na carteira você tem: ")
+             escreva("Digite quanto na carteira vocÃª tem: ")
                 leia(rs)
         dolar <- 5.26
       r <- rs/dolar
-  escreva("Você pode comprar: $", r:1:2," dólares")
+  escreva("VocÃª pode comprar: $", r:1:2," dÃ³lares")
             escreval("--- EXECUTANDO CONVERSOR ---")
          caso 4
              escreval("-----------------")
@@ -181,9 +181,9 @@ leia(pausa_)
 limpatela
            
          caso 0
-            escreval("Saindo... Até logo!")
+            escreval("Saindo... AtÃ© logo!")
          outrocaso
-            escreval("Opção Inválida! Tente de 0 a 3.")
+            escreval("OpÃ§Ã£o InvÃ¡lida! Tente de 0 a 3.")
       fimescolha
 
    ate (opcao = 0)
