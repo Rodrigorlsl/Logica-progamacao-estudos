@@ -5,7 +5,7 @@ Repositório dedicado à minha evolução em algoritmos. O foco aqui é construi
 ---
 
 ##  Projeto de Destaque: Sistema Multifunções V1.1
-**[Acessar o Sistema Unificado aqui](./MEU_SISTEMA_UNIFICADO.alg)**
+**[Acessar o Sistema Unificado aqui](./MEU_SISTEMA_UNIFICADO.ALG)**
 
 Em vez de scripts isolados, desenvolvi uma **Aplicação Integrada** que utiliza uma estrutura de menu profissional para gerenciar diferentes módulos.
 
