@@ -1,21 +1,34 @@
-# Logica-progamacao-estudos
-Exercícios de lógica de programação desenvolvidos durante o ensino médio.
-# Estudos de Lógica de Programação 
+# 💻 Estudos de Lógica de Programação (2026)
 
-Repositório dedicado aos meus primeiros passos no mundo da tecnologia. 
+Repositório dedicado à minha evolução em algoritmos. O foco aqui é construir a base lógica necessária para minha meta de me tornar **Cloud Architect**
 
-## Exercícios Disponíveis 
-1. **[Média Escolar](./média_escolar.alg):** Sistema com validação de entrada de dados (`repita/ate`) para cálculo de médias.
-2. **[Cálculo de IMC](./calculo_imc.alg):** Algoritmo que utiliza condicionais aninhadas para classificar o índice de massa corporal.
-3. **[School System (English Version)](./school_system_grade.alg)**: Sistema de notas com conceitos de A a F, focado em padrões internacionais.
-4. **[Currency Converter](./real_para_dólar.alg):**
-   - **Contexto:** Um utilitário simples para conversão de BRL para USD. 
-   - **Nota de Estudo:** Este exercício simula a base de transações internacionais, focando em manipulação de variáveis financeiras.
+---
 
+##  Projeto de Destaque: Sistema Multifunções V1.1
+**[Acessar o Sistema Unificado aqui](./unified_system_v1.alg)**
 
-###  Tecnologias
-- Portugol (VisualG)
-- Lógica de Programação
+Em vez de scripts isolados, desenvolvi uma **Aplicação Integrada** que utiliza uma estrutura de menu profissional para gerenciar diferentes módulos.
 
-###  Foco no Futuro
-Atualmente cursando o 2º ano do Ensino Médio e me preparando para a faculdade de **Ciência da Computação** em 2028, com foco em me tornar **Cloud Architect**.
+###  Funcionalidades Integradas:
+1. **Calculadora de IMC:** Classificação completa baseada nos índices da OMS.
+2. **Gestão Escolar:** Cálculo de médias com validação de entrada de dados (`Repita/Até`).
+3. **Currency Converter (BRL/USD):** Foco em lógica financeira e variáveis de câmbio.
+4. **System Grade School:** Atribuição de conceitos internacionais (A a F) para notas.
+
+###  Conceitos de Engenharia Aplicados:
+- **Arquitetura de Software:** Modularização de funções dentro de um menu central (`Escolha/Caso`).
+- **UX (User Experience):** Implementação de pausas de tela e limpeza de interface para o usuário.
+- **Tratamento de Dados:** Filtros para impedir o processamento de entradas inválidas.
+
+---
+
+##  Repositório de Exercícios Base
+Aqui estão os scripts individuais que serviram de base para o sistema unificado:
+
+- [Média Escolar Básico](./média_escolar.alg)
+- [Cálculo de IMC Isolado](./calculo_imc.alg)
+- [School System (English Version)](./school_system_grade.alg)
+- [Currency Converter](./real_para_dólar.alg)
+
+---
+
