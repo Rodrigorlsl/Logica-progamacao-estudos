@@ -1,6 +1,6 @@
 # 💻 Estudos de Lógica de Programação (2026)
 
-Repositório dedicado à minha evolução em algoritmos. O foco aqui é construir a base lógica necessária para minha meta de me tornar **Cloud Architect**
+Repositório dedicado à minha evolução em algoritmos.
 
 ---
 
