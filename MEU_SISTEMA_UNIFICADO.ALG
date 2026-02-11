@@ -183,8 +183,9 @@ limpatela
          caso 0
             escreval("Saindo... Até logo!")
          outrocaso
-            escreval("Opção Inválida! Tente de 0 a 3.")
+            escreval("Opção Inválida! Tente de 0 a 4.")
       fimescolha
 
    ate (opcao = 0)
 fimalgoritmo
+
